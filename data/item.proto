@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package data;
+
+message Item {
+    string label = 1;
+    int32 type = 2;
+    int64 reps = 3;
+}
